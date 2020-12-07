@@ -114,7 +114,7 @@ ner = NER()
 st.subheader("Topics trending today.")
 st.sidebar.subheader("Options.")
 entries = st.sidebar.slider('Number of topics', min_value = 10, max_value = 100)
-tags = st.sidebar.multiselect('Entity types', ['ORGANIZATION', 'PERSON'], default = ['PERSON'])
+tags = st.sidebar.multiselect('Entity types', ['ORGANIZATION', 'PERSON'], default = ['ORGANIZATION'])
 
 temp = ner[((ner.Tag.isin(tags)))].head(entries).reset_index()
 st.plotly_chart(px.line(temp, x = 'Entity', y = 'Count', facet_col = 'Tag').update_xaxes(matches=None))
