@@ -29,12 +29,12 @@ It uses the [LatestNews](https://algorithmia.com/algorithms/specrom/LatestNewsAP
 ## Screenshots:
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/50259869/101362865-afdb5880-38c6-11eb-8972-cd23ef385313.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/50259869/101362951-c7b2dc80-38c6-11eb-8320-5595d818dbd7.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/50259869/101362865-afdb5880-38c6-11eb-8972-cd23ef385313.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/50259869/101362951-c7b2dc80-38c6-11eb-8320-5595d818dbd7.png" width="400" /> 
 </p>
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/50259869/101364116-3a708780-38c8-11eb-82a8-0cb9f56028a6.png" width="300" />
-  <img src="https://user-images.githubusercontent.com/50259869/101364184-4eb48480-38c8-11eb-8030-2688e7e2e075.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/50259869/101364116-3a708780-38c8-11eb-82a8-0cb9f56028a6.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/50259869/101364184-4eb48480-38c8-11eb-8030-2688e7e2e075.png" width="400" /> 
 </p>
 
 ---
