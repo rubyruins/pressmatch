@@ -45,6 +45,7 @@ def similar_journalists(text):
 	results = model.kneighbors(new.todense())[:]
 	return results
 
+nltk.download('stopwords')
 stop = set(stopwords.words('english'))
 exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
