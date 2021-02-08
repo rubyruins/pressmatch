@@ -47,6 +47,7 @@ def similar_journalists(text):
 	return results
 
 nltk.download('stopwords')
+nltk.download('wordnet')
 stop = set(stopwords.words('english'))
 exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
