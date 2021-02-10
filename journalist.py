@@ -15,6 +15,7 @@ import datetime
 import zipfile
 import shutil
 import copy
+import requests
 
 @st.cache(persist = True, suppress_st_warning = True, max_entries = 3)
 def load_data():
@@ -46,6 +47,13 @@ def similar_journalists(text):
 	results = model.kneighbors(new.todense())[:]
 	return results
 
+def iab_taxonomy_v2(text):
+    text = '+'.join(text.split())
+    url = f"https://api.uclassify.com/v1/uClassify/IAB-Taxonomy-v2/classify/?readKey=0lmvkMjLNOy8&text={text}"
+    req = requests.get(url, headers = {'User-Agent': 'Mozilla/5.0'})
+    d = req.json()
+    return max(d, key = d.get)
+
 nltk.download('stopwords')
 nltk.download('wordnet')
 stop = set(stopwords.words('english'))
@@ -55,12 +63,14 @@ data, model, vec = copy.deepcopy(load_data())
 
 st.title("Journalist Matching.")
 st.markdown("Enter a news article to get matched with journos who covered similar stories in the past.")
-to_match = st.text_area("News article goes here", "Type something...")
 show_full = st.checkbox("Show full article text?")
-results = similar_journalists(clean(to_match))
+to_match = clean(st.text_area("News article goes here", "Type something..."))
+st.markdown(f"### IAB classifier label for input: {iab_taxonomy_v2(to_match)}")
+results = similar_journalists(to_match)
 for i in range(5):
 	index = results[1][0][i]
-	st.write(f"{humanize.naturaltime(datetime.datetime.now() - datetime.datetime(*map(int, data.date[index].split('-'))))}: {data.iloc[index].clean_author.title()} in {data.iloc[index].topic} for {data.iloc[index].site_name}")
+	st.markdown(f"### {humanize.naturaltime(datetime.datetime.now() - datetime.datetime(*map(int, data.date[index].split('-'))))}: {data.iloc[index].clean_author.title()} in {data.iloc[index].topic} for {data.iloc[index].site_name}")
+	st.markdown(f"#### IAB classifier label: {iab_taxonomy_v2(data.iloc[index].full_text)}")
 	if show_full:
 		st.write(data.iloc[index].full_text)
 		st.write()
