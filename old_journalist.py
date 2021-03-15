@@ -29,10 +29,7 @@ def load_data():
 	model = pickle.load(open('./Data/knn/model/knn_model.p','rb'))
 	vec = pickle.load(open('./Data/knn/vectorizer/knn_vectorizer.p','rb'))
 	shutil.rmtree('./Data/knn')
-	iab_model = pickle.load(open('./Data/IAB/IAB_classifier.p','rb'))
-	iab_vectorizer = pickle.load(open('./Data/IAB/IAB_vectorizer.p','rb'))
-	iab_binarizer = pickle.load(open('./Data/IAB/IAB_binarizer.p','rb'))
-	return main_data, model, vec, iab_model, iab_vectorizer, iab_binarizer
+	return main_data, model, vec
 
 # Cleaning the text sentences so that punctuation marks, stop words &amp; digits are removed
 def clean(doc):
@@ -51,18 +48,18 @@ def similar_journalists(text):
 	return results
 
 def iab_taxonomy_v2(text):
-	text = clean(text)
-	text = iab_vec.transform([text])
-	res = iab_bin.inverse_transform(iab_mod.predict(text))
-	print(res)
-	return res
+    text = '+'.join(text.split())
+    url = f"https://api.uclassify.com/v1/uClassify/IAB-Taxonomy-v2/classify/?readKey=0lmvkMjLNOy8&text={text}"
+    req = requests.get(url, headers = {'User-Agent': 'Mozilla/5.0'})
+    d = req.json()
+    return max(d, key = d.get)
 
 nltk.download('stopwords')
 nltk.download('wordnet')
 stop = set(stopwords.words('english'))
 exclude = set(string.punctuation)
 lemma = WordNetLemmatizer()
-data, model, vec, iab_mod, iab_vec, iab_bin = copy.deepcopy(load_data())
+data, model, vec = copy.deepcopy(load_data())
 
 st.title("Journalist Matching.")
 st.markdown("Enter a news article to get matched with journos who covered similar stories in the past.")
