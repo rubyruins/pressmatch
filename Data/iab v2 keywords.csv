@@ -1,0 +1,1203 @@
+,,
+,,
+IAB Tech Lab common license,,
+Content Taxonomy version 2.2,,
+Relational ID System,,
+Unique ID ,Parent,Name
+1,,Automotive
+2,1,Auto Body Styles
+3,2,Commercial Trucks
+4,2,Sedan
+5,2,Station Wagon
+6,2,SUV
+7,2,Van
+8,2,Convertible
+9,2,Coupe
+10,2,Crossover
+11,2,Hatchback
+12,2,Microcar
+13,2,Minivan
+14,2,Off-Road Vehicles
+15,2,Pickup Trucks
+16,1,Auto Type
+17,16,Budget Cars
+18,16,Certified Pre-Owned Cars
+19,16,Classic Cars
+20,16,Concept Cars
+21,16,Driverless Cars
+22,16,Green Vehicles
+23,16,Luxury Cars
+24,16,Performance Cars
+25,1,Car Culture
+26,1,Dash Cam Videos
+27,1,Motorcycles
+28,1,Road-Side Assistance
+29,1,Scooters
+30,1,Auto Buying and Selling
+31,1,Auto Insurance
+32,1,Auto Parts
+33,1,Auto Recalls
+34,1,Auto Repair
+35,1,Auto Safety
+36,1,Auto Shows
+37,1,Auto Technology
+38,37,Auto Infotainment Technologies
+39,37,Auto Navigation Systems
+40,37,Auto Safety Technologies
+41,1,Auto Rentals
+42,,Books and Literature
+43,42,Art and Photography Books
+44,42,Biographies
+45,42,Children's Literature
+46,42,Comics and Graphic Novels
+47,42,Cookbooks
+48,42,Fiction
+49,42,Poetry
+50,42,Travel Books
+51,42,Young Adult Literature
+52,,Business and Finance
+53,52,Business
+54,53,Business Accounting & Finance
+55,53,Human Resources
+56,53,Large Business
+57,53,Logistics
+58,53,Marketing and Advertising
+59,53,Sales
+60,53,Small and Medium-sized Business
+61,53,Startups
+62,53,Business Administration
+63,53,Business Banking & Finance
+64,63,Angel Investment
+65,63,Bankruptcy
+66,63,Business Loans
+67,63,Debt Factoring & Invoice Discounting
+68,63,Mergers and Acquisitions
+69,63,Private Equity
+70,63,Sale & Lease Back
+71,63,Venture Capital
+72,53,Business I.T.
+73,53,Business Operations
+74,53,Consumer Issues
+75,74,Recalls
+76,53,Executive Leadership & Management
+77,53,Government Business
+78,53,Green Solutions
+79,53,Business Utilities
+80,52,Economy
+81,80,Commodities
+82,80,Currencies
+83,80,Financial Crisis
+84,80,Financial Reform
+85,80,Financial Regulation
+86,80,Gasoline Prices
+87,80,Housing Market
+88,80,Interest Rates
+89,80,Job Market
+90,52,Industries
+91,90,Advertising Industry
+92,90,Education industry
+93,90,Entertainment Industry
+94,90,Environmental Services Industry
+95,90,Financial Industry
+96,90,Food Industry
+97,90,Healthcare Industry
+98,90,Hospitality Industry
+99,90,Information Services Industry
+100,90,Legal Services Industry
+101,90,Logistics and Transportation Industry
+102,90,Agriculture
+103,90,Management Consulting Industry
+104,90,Manufacturing Industry
+105,90,Mechanical and Industrial Engineering Industry
+106,90,Media Industry
+107,90,Metals Industry
+108,90,Non-Profit Organizations
+109,90,Pharmaceutical Industry
+110,90,Power and Energy Industry
+111,90,Publishing Industry
+112,90,Real Estate Industry
+113,90,Apparel Industry
+114,90,Retail Industry
+115,90,Technology Industry
+116,90,Telecommunications Industry
+117,90,Automotive Industry
+118,90,Aviation Industry
+119,90,Biotech and Biomedical Industry
+120,90,Civil Engineering Industry
+121,90,Construction Industry
+122,90,Defense Industry
+123,,Careers
+124,123,Apprenticeships
+125,123,Career Advice
+126,123,Career Planning
+127,123,Job Search
+128,127,Job Fairs
+129,127,Resume Writing and Advice
+130,123,Remote Working
+131,123,Vocational Training
+132,,Education
+133,132,Adult Education
+134,132,Private School
+135,132,Secondary Education
+136,132,Special Education
+137,132,College Education
+138,137,College Planning
+139,137,Postgraduate Education
+140,139,Professional School
+141,137,Undergraduate Education
+142,132,Early Childhood Education
+143,132,Educational Assessment
+144,143,Standardized Testing
+145,132,Homeschooling
+146,132,Homework and Study
+147,132,Language Learning
+148,132,Online Education
+149,132,Primary Education
+150,,Events and Attractions
+151,150,Amusement and Theme Parks
+152,150,Fashion Events
+153,150,Historic Site and Landmark Tours
+154,150,Malls & Shopping Centers
+155,150,Museums & Galleries
+156,150,Musicals
+157,150,National & Civic Holidays
+158,150,Nightclubs
+159,150,Outdoor Activities
+160,150,Parks & Nature
+161,150,Party Supplies and Decorations
+162,150,Awards Shows
+163,150,Personal Celebrations & Life Events
+164,163,Anniversary
+165,163,Wedding
+166,163,Baby Shower
+167,163,Bachelor Party
+168,163,Bachelorette Party
+169,163,Birth
+170,163,Birthday
+171,163,Funeral
+172,163,Graduation
+173,163,Prom
+174,150,Political Event
+175,150,Religious Events
+176,150,Sporting Events
+177,150,Theater Venues and Events
+178,150,Zoos & Aquariums
+179,150,Bars & Restaurants
+180,150,Business Expos & Conferences
+181,150,Casinos & Gambling
+182,150,Cinemas and Events
+183,150,Comedy Events
+184,150,Concerts & Music Events
+185,150,Fan Conventions
+186,,Family and Relationships
+187,186,Bereavement
+188,186,Dating
+189,186,Divorce
+190,186,Eldercare
+191,186,Marriage and Civil Unions
+192,186,Parenting
+193,192,Adoption and Fostering
+194,192,Daycare and Pre-School
+195,192,Internet Safety
+196,192,Parenting Babies and Toddlers
+197,192,Parenting Children Aged 4-11
+198,192,Parenting Teens
+199,192,Special Needs Kids
+200,186,Single Life
+201,,Fine Art
+202,201,Costume
+203,201,Dance
+204,201,Design
+205,201,Digital Arts
+206,201,Fine Art Photography
+207,201,Modern Art
+208,201,Opera
+209,201,Theater
+210,,Food & Drink
+211,210,Alcoholic Beverages
+212,210,Vegan Diets
+213,210,Vegetarian Diets
+214,210,World Cuisines
+215,210,Barbecues and Grilling
+216,210,Cooking
+217,210,Desserts and Baking
+218,210,Dining Out
+219,210,Food Allergies
+220,210,Food Movements
+221,210,Healthy Cooking and Eating
+222,210,Non-Alcoholic Beverages
+223,,Healthy Living
+224,223,Children's Health
+225,223,Fitness and Exercise
+226,225,Participant Sports
+227,225,Running and Jogging
+228,223,Men's Health
+229,223,Nutrition
+230,223,Senior Health
+231,223,Weight Loss
+232,223,Wellness
+233,232,Alternative Medicine
+234,233,Herbs and Supplements
+235,233,Holistic Health
+236,232,Physical Therapy
+237,232,Smoking Cessation
+238,223,Women's Health
+239,,Hobbies & Interests
+240,239,Antiquing and Antiques
+241,239,Magic and Illusion
+242,239,Model Toys
+243,239,Musical Instruments
+244,239,Paranormal Phenomena
+245,239,Radio Control
+246,239,Sci-fi and Fantasy
+247,239,Workshops and Classes
+248,239,Arts and Crafts
+249,248,Beadwork
+250,248,Candle and Soap Making
+251,248,Drawing and Sketching
+252,248,Jewelry Making
+253,248,Needlework
+254,248,Painting
+255,248,Photography
+256,248,Scrapbooking
+257,248,Woodworking
+258,239,Beekeeping
+259,239,Birdwatching
+260,239,Cigars
+261,239,Collecting
+262,261,Comic Books
+263,261,Stamps and Coins
+264,239,Content Production
+265,264,Audio Production
+266,264,Freelance Writing
+267,264,Screenwriting
+268,264,Video Production
+269,239,Games and Puzzles
+270,269,Board Games and Puzzles
+271,269,Card Games
+272,269,Roleplaying Games
+273,239,Genealogy and Ancestry
+274,,Home & Garden
+275,274,Gardening
+276,274,Remodeling & Construction
+277,274,Smart Home
+278,274,Home Appliances
+279,274,Home Entertaining
+280,274,Home Improvement
+281,274,Home Security
+282,274,Indoor Environmental Quality
+283,274,Interior Decorating
+284,274,Landscaping
+285,274,Outdoor Decorating
+286,,Medical Health
+287,286,Diseases and Conditions
+288,287,Allergies
+289,287,"Ear, Nose and Throat Conditions"
+290,287,Endocrine and Metabolic Diseases
+291,290,Hormonal Disorders
+292,290,Menopause
+293,290,Thyroid Disorders
+294,287,Eye and Vision Conditions
+295,287,Foot Health
+296,287,Heart and Cardiovascular Diseases
+297,287,Infectious Diseases
+298,287,Injuries
+299,298,First Aid
+300,287,Lung and Respiratory Health
+301,287,Mental Health
+302,287,Reproductive Health
+303,302,Birth Control
+304,302,Infertility
+305,302,Pregnancy
+306,287,Blood Disorders
+307,287,Sexual Health
+308,307,Sexual Conditions
+309,287,Skin and Dermatology
+310,287,Sleep Disorders
+311,287,Substance Abuse
+312,287,Bone and Joint Conditions
+313,287,Brain and Nervous System Disorders
+314,287,Cancer
+315,287,Cold and Flu
+316,287,Dental Health
+317,287,Diabetes
+318,287,Digestive Disorders
+319,286,Medical Tests
+320,286,Pharmaceutical Drugs
+321,286,Surgery
+322,286,Vaccines
+323,286,Cosmetic Medical Services
+324,,Movies
+325,324,Action and Adventure Movies
+326,324,Romance Movies
+327,324,Science Fiction Movies
+328,324,Special Interest Movies
+329,324,Animation Movies
+330,324,Comedy Movies
+331,324,Crime and Mystery Movies
+332,324,Documentary Movies
+333,324,Drama Movies
+334,324,Family and Children Movies
+335,324,Fantasy Movies
+336,324,Horror Movies
+337,324,World Movies
+338,,Music and Audio
+339,338,Adult Contemporary Music
+340,339,Soft AC Music
+341,339,Urban AC Music
+342,338,Adult Album Alternative
+343,338,Alternative Music
+344,338,Children's Music
+345,338,Classic Hits
+346,338,Classical Music
+347,338,College Radio
+348,338,Comedy (Music and Audio)
+349,338,Contemporary Hits/Pop/Top 40
+350,338,Country Music
+351,338,Dance and Electronic Music
+352,338,World/International Music
+353,338,Songwriters/Folk
+354,338,Gospel Music
+355,338,Hip Hop Music
+356,338,Inspirational/New Age Music
+357,338,Jazz
+358,338,Oldies/Adult Standards
+359,338,Reggae
+360,338,Blues
+361,338,Religious (Music and Audio)
+362,338,R&B/Soul/Funk
+363,338,Rock Music
+364,363,Album-oriented Rock
+365,363,Alternative Rock
+366,363,Classic Rock
+367,363,Hard Rock
+368,363,Soft Rock
+369,338,"Soundtracks, TV and Showtunes"
+370,338,Sports Radio
+371,338,Talk Radio
+372,371,Business News Radio
+373,371,Educational Radio
+374,371,News Radio
+375,371,News/Talk Radio
+376,371,Public Radio
+377,338,Urban Contemporary Music
+378,338,Variety (Music and Audio)
+379,,News and Politics
+380,379,Crime
+381,379,Disasters
+382,379,International News
+383,379,Law
+384,379,Local News
+385,379,National News
+386,379,Politics
+387,386,Elections
+388,386,Political Issues
+389,386,War and Conflicts
+390,379,Weather
+391,,Personal Finance
+392,391,Consumer Banking
+393,391,Financial Assistance
+394,393,Government Support and Welfare
+395,393,Student Financial Aid
+396,391,Financial Planning
+397,391,Frugal Living
+398,391,Insurance
+399,398,Health Insurance
+400,398,Home Insurance
+401,398,Life Insurance
+402,398,Motor Insurance
+403,398,Pet Insurance
+404,398,Travel Insurance
+405,391,Personal Debt
+406,405,Credit Cards
+407,405,Home Financing
+408,405,Personal Loans
+409,405,Student Loans
+410,391,Personal Investing
+411,410,Hedge Funds
+412,410,Mutual Funds
+413,410,Options
+414,410,Stocks and Bonds
+415,391,Personal Taxes
+416,391,Retirement Planning
+417,391,Home Utilities
+418,417,Gas and Electric
+419,417,Internet Service Providers
+420,417,Phone Services
+421,417,Water Services
+422,,Pets
+423,422,Birds
+424,422,Cats
+425,422,Dogs
+426,422,Fish and Aquariums
+427,422,Large Animals
+428,422,Pet Adoptions
+429,422,Reptiles
+430,422,Veterinary Medicine
+431,422,Pet Supplies
+432,,Pop Culture
+433,432,Celebrity Deaths
+434,432,Celebrity Families
+435,432,Celebrity Homes
+436,432,Celebrity Pregnancy
+437,432,Celebrity Relationships
+438,432,Celebrity Scandal
+439,432,Celebrity Style
+440,432,Humor and Satire
+441,,Real Estate
+442,441,Apartments
+443,441,Retail Property
+444,441,Vacation Properties
+445,441,Developmental Sites
+446,441,Hotel Properties
+447,441,Houses
+448,441,Industrial Property
+449,441,Land and Farms
+450,441,Office Property
+451,441,Real Estate Buying and Selling
+452,441,Real Estate Renting and Leasing
+453,,Religion & Spirituality
+454,453,Agnosticism
+455,453,Spirituality
+456,453,Astrology
+457,453,Atheism
+458,453,Buddhism
+459,453,Christianity
+460,453,Hinduism
+461,453,Islam
+462,453,Judaism
+463,453,Sikhism
+464,,Science
+465,464,Biological Sciences
+466,464,Chemistry
+467,464,Environment
+468,464,Genetics
+469,464,Geography
+470,464,Geology
+471,464,Physics
+472,464,Space and Astronomy
+473,,Shopping
+474,473,Coupons and Discounts
+475,473,Flower Shopping
+476,473,Gifts and Greetings Cards
+477,473,Grocery Shopping
+478,473,Holiday Shopping
+479,473,Household Supplies
+480,473,Lotteries and Scratchcards
+481,473,Sales and Promotions
+482,473,Children's Games and Toys
+483,,Sports
+484,483,American Football
+485,483,Boxing
+486,483,Cheerleading
+487,483,College Sports
+488,487,College Football
+489,487,College Basketball
+490,487,College Baseball
+491,483,Cricket
+492,483,Cycling
+493,483,Darts
+494,483,Disabled Sports
+495,483,Diving
+496,483,Equine Sports
+497,483,Horse Racing
+498,483,Extreme Sports
+499,498,Canoeing and Kayaking
+500,498,Climbing
+501,498,Paintball
+502,498,Scuba Diving
+503,498,Skateboarding
+504,498,Snowboarding
+505,498,Surfing and Bodyboarding
+506,498,Waterskiing and Wakeboarding
+507,483,Australian Rules Football
+508,483,Fantasy Sports
+509,483,Field Hockey
+510,483,Figure Skating
+511,483,Fishing Sports
+512,483,Golf
+513,483,Gymnastics
+514,483,Hunting and Shooting
+515,483,Ice Hockey
+516,483,Inline Skating
+517,483,Lacrosse
+518,483,Auto Racing
+519,518,Motorcycle Sports
+520,483,Martial Arts
+521,483,Olympic Sports
+522,521,Summer Olympic Sports
+523,521,Winter Olympic Sports
+524,483,Poker and Professional Gambling
+525,483,Rodeo
+526,483,Rowing
+527,483,Rugby
+528,527,Rugby League
+529,527,Rugby Union
+530,483,Sailing
+531,483,Skiing
+532,483,Snooker/Pool/Billiards
+533,483,Soccer
+534,483,Badminton
+535,483,Softball
+536,483,Squash
+537,483,Swimming
+538,483,Table Tennis
+539,483,Tennis
+540,483,Track and Field
+541,483,Volleyball
+542,483,Walking
+543,483,Water Polo
+544,483,Weightlifting
+545,483,Baseball
+546,483,Wrestling
+547,483,Basketball
+548,483,Beach Volleyball
+549,483,Bodybuilding
+550,483,Bowling
+551,483,Sports Equipment
+552,,Style & Fashion
+553,552,Beauty
+554,553,Hair Care
+555,553,Makeup and Accessories
+556,553,Nail Care
+557,553,Natural and Organic Beauty
+558,553,Perfume and Fragrance
+559,553,Skin Care
+560,552,Women's Fashion
+561,560,Women's Accessories
+562,561,Women's Glasses
+563,561,Women's Handbags and Wallets
+564,561,Women's Hats and Scarves
+565,561,Women's Jewelry and Watches
+566,560,Women's Clothing
+567,566,Women's Business Wear
+568,566,Women's Casual Wear
+569,566,Women's Formal Wear
+570,566,Women's Intimates and Sleepwear
+571,566,Women's Outerwear
+572,566,Women's Sportswear
+573,560,Women's Shoes and Footwear
+574,552,Body Art
+575,552,Children's Clothing
+576,552,Designer Clothing
+577,552,Fashion Trends
+578,552,High Fashion
+579,552,Men's Fashion
+580,579,Men's Accessories
+581,580,Men's Jewelry and Watches
+582,579,Men's Clothing
+583,582,Men's Business Wear
+584,582,Men's Casual Wear
+585,582,Men's Formal Wear
+586,582,Men's Outerwear
+587,582,Men's Sportswear
+588,582,Men's Underwear and Sleepwear
+589,579,Men's Shoes and Footwear
+590,552,Personal Care
+591,590,Bath and Shower
+592,590,Deodorant and Antiperspirant
+593,590,Oral care
+594,590,Shaving
+595,552,Street Style
+596,,Technology & Computing
+597,596,Artificial Intelligence
+598,596,Augmented Reality
+599,596,Computing
+600,599,Computer Networking
+601,599,Computer Peripherals
+602,599,Computer Software and Applications
+603,602,3-D Graphics
+604,602,Photo Editing Software
+605,602,Shareware and Freeware
+606,602,Video Software
+607,602,Web Conferencing
+608,602,Antivirus Software
+609,602,Browsers
+610,602,Computer Animation
+611,602,Databases
+612,602,Desktop Publishing
+613,602,Digital Audio
+614,602,Graphics Software
+615,602,Operating Systems
+616,599,Data Storage and Warehousing
+617,599,Desktops
+618,599,Information and Network Security
+619,599,Internet
+620,619,Cloud Computing
+621,619,Web Development
+622,619,Web Hosting
+623,619,Email
+624,619,Internet for Beginners
+625,619,Internet of Things
+626,619,IT and Internet Support
+627,619,Search
+628,619,Social Networking
+629,619,Web Design and HTML
+630,599,Laptops
+631,599,Programming Languages
+632,596,Consumer Electronics
+633,632,Cameras and Camcorders
+634,632,Home Entertainment Systems
+635,632,Smartphones
+636,632,Tablets and E-readers
+637,632,Wearable Technology
+638,596,Robotics
+639,596,Virtual Reality
+640,,Television
+641,640,Animation TV
+642,640,Soap Opera TV
+643,640,Special Interest TV
+644,640,Sports TV
+645,640,Children's TV
+646,640,Comedy TV
+647,640,Drama TV
+648,640,Factual TV
+649,640,Holiday TV
+650,640,Music TV
+651,640,Reality TV
+652,640,Science Fiction TV
+653,,Travel
+654,653,Travel Accessories
+655,653,Travel Locations
+656,655,Africa Travel
+657,655,Asia Travel
+658,655,Australia and Oceania Travel
+659,655,Europe Travel
+660,655,North America Travel
+661,655,Polar Travel
+662,655,South America Travel
+663,653,Travel Preparation and Advice
+664,653,Travel Type
+665,664,Adventure Travel
+666,664,Family Travel
+667,664,Honeymoons and Getaways
+668,664,Hotels and Motels
+669,664,Rail Travel
+670,664,Road Trips
+671,664,Spas
+672,664,Air Travel
+673,664,Beach Travel
+674,664,Bed & Breakfasts
+675,664,Budget Travel
+676,664,Business Travel
+677,664,Camping
+678,664,Cruises
+679,664,Day Trips
+680,,Video Gaming
+681,680,Console Games
+682,680,eSports
+683,680,Mobile Games
+684,680,PC Games
+685,680,Video Game Genres
+686,685,Action Video Games
+687,685,Role-Playing Video Games
+688,685,Simulation Video Games
+689,685,Sports Video Games
+690,685,Strategy Video Games
+691,685,Action-Adventure Video Games
+692,685,Adventure Video Games
+693,685,Casual Games
+694,685,Educational Video Games
+695,685,Exercise and Fitness Video Games
+696,685,MMOs
+697,685,Music and Party Video Games
+698,685,Puzzle Video Games
+v9i3On,,Sensitive Topics
+Rm3SiT,v9i3On,Adult & Explicit Sexual Content
+avbNf2,v9i3On,Arms & Ammunition
+XtODT3,v9i3On,Crime & Harmful acts to individuals and Society and Human Right Violations
+I4GWl6,v9i3On,"Death, Injury, or Military Conflict"
+mm3UXx,v9i3On,Online piracy 
+HxqYV1,v9i3On,Hate speech & acts of aggression
+j9PaO9,v9i3On,Obscenity and Profanity
+pg0WhF,v9i3On,Illegal Drugs/Tobacco/eCigarettes/ Vaping/Alcohol
+6i4dB6,v9i3On,Spam or Harmful Content
+8FD8nI,v9i3On,Terrorism
+Z7rJBM,v9i3On,Sensitive Social Issues
+,,
+MRkz4Q,,Brand Suitability and Risk
+bsr001,MRkz4Q,Floor
+bsr002,MRkz4Q,High Risk
+bsr003,MRkz4Q,Medium Risk
+bsr004,MRkz4Q,Low Risk
+1000,,Content Channel
+1001,1000,Editorial/Professional
+1002,1000,Email
+1003,1000,Forum/Community
+1004,1000,Game
+1005,1000,Marketplace/eCommerce
+1006,1000,Search Engine/Listings
+1007,1000,Social
+1008,1000,Utility/Online Tool
+1009,1000,Voice Activated Channels
+1010,,Content Type
+1011,1010,Academic/ResearchConent
+1012,1010,Chat/IM/Comments
+1013,1010,Educational Content
+1014,1010,Entertainment Content
+1015,1010,Feature
+1016,1010,General Social
+1017,1010,Instructional Content
+1018,1010,Interactive Content
+1019,1010,Listings/Classifieds/Product Listings/Search Results
+1020,1010,News
+1021,1010,Review
+1215,,Content Source
+1216,1215,Professionally Produced
+1217,1215,User Generated
+1218,1215,Aggregated/Curated
+1022,,Content Media Format
+1023,1022,Audio
+1024,1022,Images/Galleries
+1025,1022,Interactive
+1026,1022,Mixed
+1027,1022,Textual
+1028,1022,Video
+1029,1022,VR/AR
+1030,,Content Language
+1031,1030,Afar
+1032,1030,Abkhaz
+1033,1030,Avestan
+1034,1030,Afrikaans
+1035,1030,Akan
+1036,1030,Amharic
+1037,1030,Aragonese
+1038,1030,Arabic
+1039,1030,Assamese
+1040,1030,Avaric
+1041,1030,Aymara
+1042,1030,Azerbaijani
+1043,1030,Bashkir
+1044,1030,Belarusian
+1045,1030,Bulgarian
+1046,1030,Bihari
+1047,1030,Bislama
+1048,1030,Bambara
+1049,1030,Bengali
+1050,1030,Tibetan
+1051,1030,Breton
+1052,1030,Bosnian
+1053,1030,Catalan
+1054,1030,Chechen
+1055,1030,Chamorro
+1056,1030,Corsican
+1057,1030,Cree
+1058,1030,Czech
+1059,1030,Old Church Slavonic
+1060,1030,Chuvash
+1061,1030,Welsh
+1062,1030,Danish
+1063,1030,German
+1064,1030,Divehi
+1065,1030,Dzongkha
+1066,1030,Ewe
+1067,1030,Greek
+1068,1030,English
+1069,1030,Esperanto
+1070,1030,Spanish
+1071,1030,Estonian
+1072,1030,Basque
+1073,1030,Farsi
+1074,1030,Fula
+1075,1030,Finnish
+1076,1030,Fijian
+1077,1030,Faroese
+1078,1030,French
+1079,1030,Western Frisian
+1080,1030,Irish
+1081,1030,Scottish Gaelic
+1082,1030,Galician
+1083,1030,Guarani
+1084,1030,Gujarati
+1085,1030,Manx
+1086,1030,Hausa
+1087,1030,Hebrew
+1088,1030,Hindi
+1089,1030,Hiri Motu
+1090,1030,Croatian
+1091,1030,Haitian
+1092,1030,Hungarian
+1093,1030,Armenian
+1094,1030,Herero
+1095,1030,Interlingua
+1096,1030,Indonesian
+1097,1030,Interlingue
+1098,1030,Igbo
+1099,1030,Nuosu
+1100,1030,Inupiaq
+1101,1030,Ido
+1102,1030,Icelandic
+1103,1030,Italian
+1104,1030,Inuktitut
+1105,1030,Japanese
+1106,1030,Javanese
+1107,1030,Georgian
+1108,1030,Kongo
+1109,1030,Kikuyu
+1110,1030,Kwanyama
+1111,1030,Kazakh
+1112,1030,Kalaallisut
+1113,1030,Khmer
+1114,1030,Kannada
+1115,1030,Korean
+1116,1030,Kanuri
+1117,1030,Kashmiri
+1118,1030,Kurdish
+1119,1030,Komi
+1120,1030,Cornish
+1121,1030,Kyrgyz
+1122,1030,Latin
+1123,1030,Luxembourgish
+1124,1030,Ganda
+1125,1030,Limburgish
+1126,1030,Lingala
+1127,1030,Lao
+1128,1030,Lithuanian
+1129,1030,Luba-Katanga
+1130,1030,Latvian
+1131,1030,Malagasy
+1132,1030,Marshallese
+1133,1030,M?ori
+1134,1030,Macedonian
+1135,1030,Malayalam
+1136,1030,Mongolian
+1137,1030,Marathi
+1138,1030,Malay
+1139,1030,Maltese
+1140,1030,Burmese
+1141,1030,Nauruan
+1142,1030,Norwegian Bokmal
+1143,1030,Northern Ndebele
+1144,1030,Nepali
+1145,1030,Ndonga
+1146,1030,Dutch
+1147,1030,Norwegian Nynorsk
+1148,1030,Norwegian
+1149,1030,Southern Ndebele
+1150,1030,Navajo
+1151,1030,Chichewa
+1152,1030,Occitan
+1153,1030,Ojibwe
+1154,1030,Oromo
+1155,1030,Oriya
+1156,1030,Ossetian
+1157,1030,Punjabi
+1158,1030,Pali
+1159,1030,Polish
+1160,1030,Pashto
+1161,1030,Portuguese
+1162,1030,Quechua
+1163,1030,Romansh
+1164,1030,Kirundi
+1165,1030,Romanian
+1166,1030,Russian
+1167,1030,Kinyarwanda
+1168,1030,Sanskrit
+1169,1030,Sardinian
+1170,1030,Sindhi
+1171,1030,Northern Sami
+1172,1030,Sango
+1173,1030,Sinhala
+1174,1030,Slovak
+1175,1030,Slovene
+1176,1030,Samoan
+1177,1030,Shona
+1178,1030,Somali
+1179,1030,Albanian
+1180,1030,Serbian
+1181,1030,Swati
+1182,1030,Southern Sotho
+1183,1030,Sundanese
+1184,1030,Swedish
+1185,1030,Swahili
+1186,1030,Tamil
+1187,1030,Telugu
+1188,1030,Tajik
+1189,1030,Thai
+1190,1030,Tigrinya
+1191,1030,Turkmen
+1192,1030,Tagalog
+1193,1030,Tswana
+1194,1030,Tonga
+1195,1030,Turkish
+1196,1030,Tsonga
+1197,1030,Tatar
+1198,1030,Twi
+1199,1030,Tahitian
+1200,1030,Uyghur
+1201,1030,Ukrainian
+1202,1030,Urdu
+1203,1030,Uzbek
+1204,1030,Venda
+1205,1030,Vietnamese
+1206,1030,Volapuk
+1207,1030,Walloon
+1208,1030,Wolof
+1209,1030,Xhosa
+1210,1030,Yiddish
+1211,1030,Yoruba
+1212,1030,Zhuang
+1213,1030,Chinese
+1214,1030,Zulu
+1219,,Content Source Geo
+1220,1219,Continent
+1221,1220,Asia
+1222,1220,Africa
+1223,1220,North America
+1224,1220,South America
+1225,1220,Antarctica
+1226,1220,Europe
+1227,1220,Antarctica
+1228,1219,Country
+1229,1228,Afghanistan
+1230,1228,Aland Islands
+1231,1228,Albania
+1232,1228,Algeria
+1233,1228,American Samoa
+1234,1228,Andorra
+1235,1228,Angola
+1236,1228,Anguilla
+1237,1228,Antarctica
+1238,1228,Antigua and Barbuda
+1239,1228,Argentina
+1240,1228,Armenia
+1241,1228,Aruba
+1242,1228,Australia
+1243,1228,Austria
+1244,1228,Azerbaijan
+1245,1228,Bahrain
+1246,1228,Bangladesh
+1247,1228,Barbados
+1248,1228,Belarus
+1249,1228,Belgium
+1250,1228,Belize
+1251,1228,Benin
+1252,1228,Bermuda
+1253,1228,Bhutan
+1254,1228,Bolivarian Republic of Venezuela
+1255,1228,Bolivia
+1256,1228,"Bonaire, Sint Eustatius and Saba"
+1257,1228,Bosnia and Herzegovina
+1258,1228,Botswana
+1259,1228,Bouvet Island
+1260,1228,Brazil
+1261,1228,British Virgin Islands
+1262,1228,Brunei Darussalam
+1263,1228,Bulgaria
+1264,1228,Burkina Faso
+1265,1228,Burundi
+1266,1228,Cabo Verde
+1267,1228,Cambodia
+1268,1228,Cameroon
+1269,1228,Canada
+1270,1228,Chad
+1271,1228,Chile
+1272,1228,China
+1273,1228,Christmas Island
+1274,1228,Colombia
+1275,1228,Costa Rica
+1276,1228,Cote d'Ivoire
+1277,1228,Croatia
+1278,1228,Cuba
+1279,1228,Curaçao
+1280,1228,Cyprus
+1281,1228,Czechia
+1282,1228,Denmark
+1283,1228,Djibouti
+1284,1228,Dominica
+1285,1228,Ecuador
+1286,1228,Egypt
+1287,1228,El Salvador
+1288,1228,Equatorial Guinea
+1289,1228,Eritrea
+1290,1228,Estonia
+1291,1228,Ethiopia
+1292,1228,Federated States of Micronesia
+1293,1228,Fiji
+1294,1228,Finland
+1295,1228,France
+1296,1228,French Guiana
+1297,1228,French Polynesia
+1298,1228,Gabon
+1299,1228,Georgia
+1300,1228,Germany
+1301,1228,Ghana
+1302,1228,Gibraltar
+1303,1228,Greece
+1304,1228,Greenland
+1305,1228,Grenada
+1306,1228,Guadeloupe
+1307,1228,Guam
+1308,1228,Guatemala
+1309,1228,Guernsey
+1310,1228,Guinea
+1311,1228,Guinea-Bissau
+1312,1228,Guyana
+1313,1228,Haiti
+1314,1228,Heard Island and McDonald Islands
+1315,1228,Honduras
+1316,1228,Hong Kong
+1317,1228,Hungary
+1318,1228,Iceland
+1319,1228,India
+1320,1228,Indonesia
+1321,1228,Iraq
+1322,1228,Ireland
+1323,1228,Islamic Republic of Iran
+1324,1228,Isle of Man
+1325,1228,Israel
+1326,1228,Italy
+1327,1228,Jamaica
+1328,1228,Japan
+1329,1228,Jersey
+1330,1228,Jordan
+1331,1228,Kazakhstan
+1332,1228,Kenya
+1333,1228,Kiribati
+1334,1228,Kuwait
+1335,1228,Kyrgyzstan
+1336,1228,Latvia
+1337,1228,Lebanon
+1338,1228,Lesotho
+1339,1228,Liberia
+1340,1228,Libya
+1341,1228,Liechtenstein
+1342,1228,Lithuania
+1343,1228,Luxembourg
+1344,1228,Macao
+1345,1228,Madagascar
+1346,1228,Malawi
+1347,1228,Malaysia
+1348,1228,Maldives
+1349,1228,Mali
+1350,1228,Malta
+1351,1228,Martinique
+1352,1228,Mauritania
+1353,1228,Mauritius
+1354,1228,Mayotte
+1355,1228,Mexico
+1356,1228,Monaco
+1357,1228,Mongolia
+1358,1228,Montenegro
+1359,1228,Montserrat
+1360,1228,Morocco
+1361,1228,Mozambique
+1362,1228,Myanmar
+1363,1228,Namibia
+1364,1228,Nauru
+1365,1228,Nepal
+1366,1228,New Caledonia
+1367,1228,New Zealand
+1368,1228,Nicaragua
+1369,1228,Nigeria
+1370,1228,Niue
+1371,1228,Norfolk Island
+1372,1228,Norway
+1373,1228,Oman
+1374,1228,Pakistan
+1375,1228,Palau
+1376,1228,Panama
+1377,1228,Papua New Guinea
+1378,1228,Paraguay
+1379,1228,Peru
+1380,1228,Pitcairn
+1381,1228,Poland
+1382,1228,Portugal
+1383,1228,Puerto Rico
+1384,1228,Qatar
+1385,1228,Reunion
+1386,1228,Romania
+1387,1228,Rwanda
+1388,1228,Saint Barthelemy
+1389,1228,"Saint Helena, Ascension and Tristan da Cunha"
+1390,1228,Saint Kitts and Nevis
+1391,1228,Saint Lucia
+1392,1228,Saint Martin
+1393,1228,Saint Pierre and Miquelon
+1394,1228,Saint Vincent and the Grenadines
+1395,1228,Samoa
+1396,1228,San Marino
+1397,1228,Sao Tome and Principe
+1398,1228,Saudi Arabia
+1399,1228,Senegal
+1400,1228,Serbia
+1401,1228,Seychelles
+1402,1228,Sierra Leone
+1403,1228,Singapore
+1404,1228,Sint Maarten
+1405,1228,Slovakia
+1406,1228,Slovenia
+1407,1228,Solomon Islands
+1408,1228,Somalia
+1409,1228,South Africa
+1410,1228,South Georgia and the South Sandwich Islands
+1411,1228,South Sudan
+1412,1228,Spain
+1413,1228,Sri Lanka
+1414,1228,State of Palestine
+1415,1228,Suriname
+1416,1228,Svalbard and Jan Mayen
+1417,1228,Swaziland
+1418,1228,Sweden
+1419,1228,Switzerland
+1420,1228,Syrian Arab Republic
+1421,1228,Taiwan (Province of China)
+1422,1228,Tajikistan
+1423,1228,Thailand
+1424,1228,The Bahamas
+1425,1228,The British Indian Ocean Territory
+1426,1228,The Cayman Islands
+1427,1228,The Central African Republic
+1428,1228,The Cocos Islands
+1429,1228,The Comoros
+1430,1228,The Congo
+1431,1228,The Cook Islands
+1432,1228,The Democratic People's Republic of Korea
+1433,1228,the Democratic Republic of the Congo
+1434,1228,The Dominican Republic
+1435,1228,The Falkland Islands
+1436,1228,The Faroe Islands
+1437,1228,The former Yugoslav Republic of Macedonia
+1438,1228,The French Southern Territories
+1439,1228,The Gambia
+1440,1228,The Holy See
+1441,1228,The Lao People's Democratic Republic
+1442,1228,The Marshall Islands
+1443,1228,The Netherlands
+1444,1228,The Niger
+1445,1228,The Northern Mariana Islands
+1446,1228,The Philippines
+1447,1228,The Republic of Korea
+1448,1228,The Republic of Moldova
+1449,1228,The Russian Federation
+1450,1228,The Sudan
+1451,1228,The Turks and Caicos Islands
+1452,1228,The United Arab Emirates
+1453,1228,The United Kingdom of Great Britain and Northern Ireland
+1454,1228,The United States Minor Outlying Islands
+1455,1228,The United States of America
+1456,1228,Timor-Leste
+1457,1228,Togo
+1458,1228,Tokelau
+1459,1228,Tonga
+1460,1228,Trinidad and Tobago
+1461,1228,Tunisia
+1462,1228,Turkey
+1463,1228,Turkmenistan
+1464,1228,Tuvalu
+1465,1228,U.S. Virgin Islands
+1466,1228,Uganda
+1467,1228,Ukraine
+1468,1228,United Republic of Tanzania
+1469,1228,Uruguay
+1470,1228,Uzbekistan
+1471,1228,Vanuatu
+1472,1228,Vietnam
+1473,1228,Wallis and Futuna
+1474,1228,Western Sahara
+1475,1228,Yemen
+1476,1228,Zambia
+1477,1228,Zimbabwe
+1478,1219,Region/State
+1479,1219,Metro
+1480,1219,City
