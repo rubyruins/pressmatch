@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pressmatch</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="jumbotron" style="height: 100%">
+		<h1 class="display-4">Pressmatch.</h1>
+		<p class="lead">Find journalist recommendations to cover your next press release. </p>
+		<hr class="my-4">
+		<p>Enter your pitch below.</p>
+		<form action="/results" method='POST'>
+			<div class="form-row">
+				<div class="col-md-12 coal-lg-12 mb-3">
+					<!-- <input type="text" name="input_article"> -->
+					<textarea name="input_article" cols="150" rows="10"></textarea>
+				</div>
+			</div>
+			<div class="form-row lead py-2">
+				<input class="btn btn-primary" type="submit" name="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

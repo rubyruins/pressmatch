@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="jumbotron" style="height: 100vh;">
+		<h1 class="display-4">Results</h1>
+		{% for i in range(5) %}
+		<p class="lead">{{results[i].author_name + " in " + results[i].site_name + ", " + results[i].topic.title() + " " + results[i].time}}</p>
+		<p>{{"IAB Tags: " + results[i].tags if results[i].tags else ""}}</p>
+		<p>{{results[i].full_text}}</p>
+		<hr class="my-4">
+		{% endfor %}
+		<p class="lead py-2">
+			<a class="btn btn-primary" href="/" role="button">Try again?</a>
+		</p>
+	</div>
+</body>
+</html>
