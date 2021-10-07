@@ -61,6 +61,7 @@ def similar_journalists(text):
 		news_item['full_text'] = articles.iloc[index].full_text
 		news_item['time'] = humanize.naturaltime(datetime.datetime.now() - datetime.datetime(*map(int, articles.date[index].split('-'))))
 		news_item['tags'] = tags
+		news_item['collapse'], news_item['id_collapse'], news_item['heading'] = f"collapse{i}", f"#collapse{i}", f"heading{i}"
 		data.append(news_item)
 		
 		# print(data)
