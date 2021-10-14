@@ -20,6 +20,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 import plotly.express as px
 
 articles = pd.read_csv('./Data/articles_v2.csv')
+journalists = pd.read_csv('./Data/journalists_v2.csv')
 knn_model = pickle.load(open('./Models/knn_model.p','rb'))
 knn_vec = pickle.load(open('./Models/knn_vectorizer.p', 'rb'))
 iab_classifier = pickle.load(open('./Models/IAB_classifier.p','rb'))
@@ -54,10 +55,16 @@ def similar_journalists(text):
 		index = results[1][0][i]
 		tags = list(iab_binarizer.inverse_transform(iab_classifier.predict(iab_vectorizer.transform([clean(articles.iloc[index].full_text)])))[0])
 		tags = ', '.join([i for i in tags if i != '-'])
-		
-		news_item['author_name'] = articles.iloc[index].author_name_clean.title()
+		name = articles.iloc[index].author_name_clean
+		news_item['author_name'] = name.title()
+		news_item['links'] = journalists[journalists.author_name_clean == name].links.unique()[0].split(', ')
 		news_item['topic'] = articles.iloc[index].topic
 		news_item['site_name'] = articles.iloc[index].site_name
+		if news_item['site_name'] == '-':
+			news_item['site_name'] = "the news"
+		news_item['email'] = journalists[journalists.author_name_clean == name].email.unique()[0]
+		if pd.isna(float(news_item['email'])):
+			news_item['email'] = '-'
 		news_item['full_text'] = articles.iloc[index].full_text
 		news_item['time'] = humanize.naturaltime(datetime.datetime.now() - datetime.datetime(*map(int, articles.date[index].split('-'))))
 		news_item['tags'] = tags
