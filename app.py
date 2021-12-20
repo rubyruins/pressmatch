@@ -63,12 +63,15 @@ def similar_journalists(text):
 		if news_item['site_name'] == '-':
 			news_item['site_name'] = "the news"
 		news_item['email'] = journalists[journalists.author_name_clean == name].email.unique()[0]
-		if pd.isna(float(news_item['email'])):
+		if news_item['email'] != news_item['email']: # if value is nan
 			news_item['email'] = '-'
 		news_item['full_text'] = articles.iloc[index].full_text
 		news_item['time'] = humanize.naturaltime(datetime.datetime.now() - datetime.datetime(*map(int, articles.date[index].split('-'))))
 		news_item['tags'] = tags
 		news_item['collapse'], news_item['id_collapse'], news_item['heading'] = f"collapse{i}", f"#collapse{i}", f"heading{i}"
+		news_item['writes_in'] = list(articles[articles.author_name_clean == name].site_name.unique())
+		news_item['writes_in'] = ', '.join([i for i in news_item['writes_in'] if i != '-'])
+		news_item['author_beats'] = journalists[journalists.author_name_clean == name].beats.unique()[0]
 		data.append(news_item)
 		
 		# print(data)
